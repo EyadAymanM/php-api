@@ -10,14 +10,16 @@
       "headers": {
         "Access-Control-Allow-Origin": "https://app-ebon-two.vercel.app",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "X-Requested-With,Content-Type, Authorization",
+        "Access-Control-Allow-Headers": "X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method,Access-Control-Request-Headers, Authorization",
         "Access-Control-Allow-Credentials": "true"
       },
       "dest": "/api/index.php",
       "methods": [
         "GET",
         "POST",
-        "DELETE"
+        "PUT",
+        "DELETE",
+        "OPTIONS"
       ]
     }
   ]
