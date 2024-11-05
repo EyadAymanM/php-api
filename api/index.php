@@ -13,8 +13,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
   exit();
 }
 
-$database = new Database("sql206.infinityfree.com", "if0_37565478_products", "if0_37565478", "3zI01fla1JyQ");
-// $database = new Database("localhost", "products", "root", "");
+$database = new Database("sql7.freesqldatabase.com", "sql7742707", "sql7742707", "etg3gtaKcM"); //freesqldatabase
+// $database = new Database("sql206.infinityfree.com", "if0_37565478_products", "if0_37565478", "3zI01fla1JyQ"); //infinityfree doesn't work
+// $database = new Database("localhost", "products", "root", ""); //localhost
 
 $gateway = new Gateway($database);
 
