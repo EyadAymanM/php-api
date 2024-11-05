@@ -10,7 +10,8 @@
       "headers": {
         "Access-Control-Allow-Origin": "https://animated-sunburst-00c0ea.netlify.app",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+        "Access-Control-Allow-Credentials": "true"
       },
       "dest": "/api/index.php",
       "methods": [
