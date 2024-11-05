@@ -1,7 +1,7 @@
 <?php
-require __DIR__ . './src/Controller.php';
-require __DIR__ . './src/Gateway.php';
-require __DIR__ . './src/Database.php';
+require __DIR__ . '/src/Controller.php';
+require __DIR__ . '/src/Gateway.php';
+require __DIR__ . '/src/Database.php';
 
 header("Content-type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Origin: *");
