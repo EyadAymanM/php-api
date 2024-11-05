@@ -12,11 +12,11 @@ header('Access-Control-Max-Age: 86400');
 header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Headers: *");
 
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-  // http_response_code(200);
-  header("HTTP/1.1 200 OK");
-  exit();
-}
+// if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+//   // http_response_code(200);
+//   header("HTTP/1.1 200 OK");
+//   exit();
+// }
 
 $database = new Database("sql7.freesqldatabase.com", "sql7742707", "sql7742707", "etg3gtaKcM"); //freesqldatabase
 // $database = new Database("sql206.infinityfree.com", "if0_37565478_products", "if0_37565478", "3zI01fla1JyQ"); //infinityfree doesn't work
